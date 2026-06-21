@@ -50,7 +50,7 @@ export default function Hero() {
             onClick={handleOpen}
           >
             {/* ENVELOPE BACK */}
-            <div className="absolute inset-0 bg-spring-peach border border-spring-peach rounded-sm shadow-paper z-0 overflow-hidden">
+            <div className="absolute inset-0 bg-secondary-light border border-text/10 rounded-sm shadow-paper z-0 overflow-hidden">
               <div className="absolute inset-0 opacity-[0.03] mix-blend-overlay pointer-events-none" style={{ backgroundImage: "url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E')" }} />
               
               {/* Stamps placed on the envelope back! */}
@@ -167,10 +167,10 @@ export default function Hero() {
                initial={{ opacity: 0, scale: 0.9 }}
                animate={{ opacity: 1, scale: 1 }}
                transition={{ duration: 0.6, delay: 0.6 }}
-               className="mt-12 inline-flex items-center gap-3 px-6 py-3 border border-spring-ocean rounded-sm bg-spring-ocean shadow-sm relative z-10"
+               className="mt-12 inline-flex items-center gap-3 px-6 py-3 border border-primary/20 rounded-sm bg-primary/5 shadow-sm relative z-10"
             >
-              <span className="w-2.5 h-2.5 rounded-full bg-background shadow-[0_0_8px_rgba(255,255,255,0.8)] animate-pulse" />
-              <span className="text-[10px] md:text-xs font-medium uppercase tracking-[0.15em] text-text font-bold font-mono">Open to Opportunities</span>
+              <span className="w-2 h-2 rounded-full bg-highlight shadow-[0_0_8px_rgba(216,139,158,0.8)] animate-pulse" />
+              <span className="text-[10px] md:text-xs font-medium uppercase tracking-[0.15em] text-highlight font-mono">Open to Opportunities</span>
             </motion.div>
           </motion.div>
         )}

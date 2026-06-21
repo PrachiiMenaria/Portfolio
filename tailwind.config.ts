@@ -12,13 +12,13 @@ const config: Config = {
         background: "#FDFBF7",
         surface: "#FFFFFF",
         primary: {
-          DEFAULT: "#F8B77C", /* Fawn */
-          light: "#FAD5B4",
-          dark: "#E89B5C",
+          DEFAULT: "#EE9CAD",
+          light: "#F5CEDB",
+          dark: "#DA768B",
         },
         secondary: {
-          DEFAULT: "#FFF183", /* Maize */
-          light: "#FFF8B8",
+          DEFAULT: "#E5D9C5",
+          light: "#F0E8DC",
         },
         accent: {
           DEFAULT: "#E8C1C8",

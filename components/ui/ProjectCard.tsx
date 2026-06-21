@@ -30,14 +30,14 @@ export default function ProjectCard({
   
   // Map color prop to tailwind classes
   const colorMap = {
-    sage: "bg-spring-sage border-spring-sage",
-    blush: "bg-spring-blush border-spring-blush",
-    butter: "bg-spring-butter border-spring-butter",
-    lavender: "bg-spring-lavender border-spring-lavender",
+    sage: "bg-spring-sage/20 border-spring-sage/40",
+    blush: "bg-spring-blush/20 border-spring-blush/40",
+    butter: "bg-spring-butter/20 border-spring-butter/40",
+    lavender: "bg-spring-lavender/20 border-spring-lavender/40",
     cream: "bg-paper-200 border-text/5",
-    ocean: "bg-spring-ocean border-spring-ocean",
-    peach: "bg-spring-peach border-spring-peach",
-    fern: "bg-spring-fern border-spring-fern"
+    ocean: "bg-spring-ocean/20 border-spring-ocean/40",
+    peach: "bg-spring-peach/20 border-spring-peach/40",
+    fern: "bg-spring-fern/20 border-spring-fern/40"
   };
   
   const bgClass = colorMap[accentColor];

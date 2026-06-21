@@ -47,9 +47,7 @@ export default function About() {
         
         {/* Background Decorative Elements */}
         <div className="absolute top-0 right-0 w-full h-full pointer-events-none z-0 overflow-hidden hidden md:block">
-           <div className="absolute top-[5%] right-[5%] w-64 h-80 bg-spring-ocean/70 rounded-sm -rotate-6 mix-blend-multiply" />
-           <div className="absolute top-[25%] -left-[5%] w-72 h-72 bg-spring-butter/80 rounded-full blur-[60px] mix-blend-multiply" />
-           <div className="absolute bottom-[10%] right-[10%] w-64 h-64 bg-spring-peach/80 rounded-full blur-[60px] mix-blend-multiply" />
+           <div className="absolute -top-[10%] right-[5%] w-72 h-96 bg-spring-sage/10 rounded-3xl -rotate-6 blur-[2px]" />
         </div>
         <SimpleFlower className="absolute top-[-2%] left-[15%] scale-150 opacity-40 rotate-45 z-0" delay={0.2} />
 
@@ -114,7 +112,7 @@ export default function About() {
              <motion.div
                ref={snippet1Ref}
                whileHover={{ y: -4, rotate: 2, scale: 1.02 }}
-               className="bg-spring-ocean p-6 shadow-md border border-spring-ocean relative w-full max-w-[320px] transition-all duration-300 cursor-pointer rounded-sm z-20"
+               className="bg-paper-200 p-6 shadow-sm border border-text/10 relative w-full max-w-[320px] transition-all duration-300 cursor-pointer rounded-sm z-20"
              >
                 <div className="absolute inset-0 opacity-[0.02] mix-blend-multiply pointer-events-none rounded-sm" style={{ backgroundImage: "url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E')" }} />
                 

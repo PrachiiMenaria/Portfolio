@@ -51,7 +51,7 @@ export default function Contact() {
           ref={cardRef}
           whileHover={{ rotate: 0, y: -4, scale: 1.01 }}
           transition={{ type: "spring", stiffness: 200, damping: 20 }}
-          className="bg-spring-butter p-8 md:p-10 border border-spring-butter shadow-md hover:shadow-xl relative rounded-sm max-w-xl mx-auto cursor-pointer"
+          className="bg-paper-400 p-8 md:p-10 border border-text/5 shadow-md hover:shadow-xl relative rounded-sm max-w-xl mx-auto cursor-pointer"
         >
           {/* Subtle vintage texture */}
           <div className="absolute inset-0 opacity-[0.03] mix-blend-multiply pointer-events-none rounded-sm" style={{ backgroundImage: "url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E')" }} />
@@ -112,7 +112,7 @@ export default function Contact() {
                 href="https://github.com/PrachiiMenaria" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="flex items-center justify-center w-10 h-10 bg-spring-ocean rounded-full border border-spring-ocean text-text hover:bg-spring-ocean/80 hover:scale-110 hover:-rotate-6 transition-all shadow-sm"
+                className="flex items-center justify-center w-10 h-10 bg-paper-200 rounded-full border border-text/10 text-text-muted hover:text-highlight hover:scale-110 hover:-rotate-6 transition-all shadow-sm"
                 title="GitHub Profile"
               >
                 <Github className="w-4 h-4" />
@@ -121,7 +121,7 @@ export default function Contact() {
                 href="https://www.linkedin.com/in/prachi-menaria-074259345" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="flex items-center justify-center w-10 h-10 bg-spring-peach rounded-full border border-spring-peach text-text hover:bg-spring-peach/80 hover:scale-110 hover:rotate-6 transition-all shadow-sm"
+                className="flex items-center justify-center w-10 h-10 bg-paper-200 rounded-full border border-text/10 text-text-muted hover:text-highlight hover:scale-110 hover:rotate-6 transition-all shadow-sm"
                 title="LinkedIn Profile"
               >
                 <Linkedin className="w-4 h-4" />
@@ -130,7 +130,7 @@ export default function Contact() {
                 href="https://wa.me/qr/3DIRYAUHFKUPC1" 
                 target="_blank" 
                 rel="noopener noreferrer" 
-                className="flex items-center justify-center w-10 h-10 bg-spring-fern rounded-full border border-spring-fern text-text hover:bg-spring-fern/80 hover:scale-110 hover:-rotate-6 transition-all shadow-sm"
+                className="flex items-center justify-center w-10 h-10 bg-paper-200 rounded-full border border-text/10 text-text-muted hover:text-highlight hover:scale-110 hover:-rotate-6 transition-all shadow-sm"
                 title="WhatsApp Chat"
               >
                 <MessageCircle className="w-4 h-4" />
