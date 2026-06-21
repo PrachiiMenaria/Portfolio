@@ -12,10 +12,10 @@ export default function Projects() {
   const cardsRef = useRef<(HTMLDivElement | null)[]>([]);
 
   // Define accent colors for each project to create a varied spring palette
-  const accentColors: ("cream")[] = [
-    "cream",
-    "cream",
-    "cream"
+  const accentColors: ("slate" | "sage" | "sepia")[] = [
+    "slate",
+    "sage",
+    "sepia"
   ];
 
   const projects = [

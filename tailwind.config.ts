@@ -12,42 +12,34 @@ const config: Config = {
         background: "#FDFBF7",
         surface: "#FFFFFF",
         primary: {
-          DEFAULT: "#EE9CAD",
-          light: "#F5CEDB",
-          dark: "#DA768B",
+          DEFAULT: "#C98D8D", // Dusty Rose
+          light: "#DFBABA",
+          dark: "#A36868",
         },
         secondary: {
-          DEFAULT: "#E5D9C5",
+          DEFAULT: "#E5D9C5", // Aged Parchment
           light: "#F0E8DC",
         },
         accent: {
-          DEFAULT: "#E8C1C8",
-          light: "#F2D8DC",
+          DEFAULT: "#D6C3C3",
+          dark: "#B09C9C",
         },
         highlight: {
-          DEFAULT: "#70C1E1", /* Sky Blue */
-          dark: "#50A1C1",
+          DEFAULT: "#A86363", // Muted Clay/Rust
+          light: "#C28282",
         },
-        text: {
-          DEFAULT: "#5A4C4F",
-          muted: "#8A7E81",
-          light: "#B4ABA1",
-        },
-        spring: {
-          sage: "#C3D4CB",
-          butter: "#FFF183", /* Maize */
-          blush: "#EFA7BA",
-          lavender: "#E3DFED",
-          olive: "#BCC1B0",
-          fern: "#82BA88", /* Olivine */
-          ocean: "#70C1E1", /* Sky Blue */
-          peach: "#F8B77C", /* Fawn */
+        vintage: {
+          sage: "#9CAF88",     // Faded Olive/Sage
+          slate: "#8E9AAB",    // Faded Blue/Grey
+          sepia: "#C8B598",    // Muted Gold/Brown
+          blush: "#D4A5A5",    // Faded Pink
+          parchment: "#EAE0CC" // Old Paper
         },
         paper: {
           100: "#FDFBF7",
-          200: "#F5EFE6",
-          300: "#ECE3D4",
-          400: "#E3D6C2",
+          200: "#F9F6F0",
+          300: "#F4EFE6",
+          400: "#EFE7DA",
           500: "#D4C5AD",
           600: "#C4B296",
           700: "#B09C7D",
