@@ -28,6 +28,11 @@ const config: Config = {
           DEFAULT: "#A86363", // Muted Clay/Rust
           light: "#C28282",
         },
+        text: {
+          DEFAULT: "#5A4C4F",
+          muted: "#8A7E81",
+          light: "#B4ABA1",
+        },
         vintage: {
           sage: "#9CAF88",     // Faded Olive/Sage
           slate: "#8E9AAB",    // Faded Blue/Grey
