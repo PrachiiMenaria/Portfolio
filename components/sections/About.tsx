@@ -47,7 +47,7 @@ export default function About() {
         
         {/* Background Decorative Elements */}
         <div className="absolute top-0 right-0 w-full h-full pointer-events-none z-0 overflow-hidden hidden md:block">
-           <div className="absolute -top-[10%] right-[5%] w-72 h-96 bg-spring-sage/10 rounded-3xl -rotate-6 blur-[2px]" />
+           <div className="absolute -top-[10%] right-[5%] w-72 h-96 bg-primary/10 rounded-3xl -rotate-6 blur-[2px]" />
         </div>
         <SimpleFlower className="absolute top-[-2%] left-[15%] scale-150 opacity-40 rotate-45 z-0" delay={0.2} />
 

@@ -22,7 +22,7 @@ export default function Timeline() {
       stampText: "UDAIPUR",
       postmark: "2026",
       rotation: -1.5,
-      accent: "bg-spring-ocean",
+      accent: "bg-primary/30",
       tapeRotation: "rotate-2",
     },
     {
@@ -33,7 +33,7 @@ export default function Timeline() {
       stampText: "INTERN",
       postmark: "2025",
       rotation: 2,
-      accent: "bg-spring-butter",
+      accent: "bg-secondary",
       tapeRotation: "-rotate-3",
     },
     {
@@ -44,7 +44,7 @@ export default function Timeline() {
       stampText: "CREATOR",
       postmark: "ACTIVE",
       rotation: -1,
-      accent: "bg-spring-peach",
+      accent: "bg-primary/40",
       tapeRotation: "rotate-1",
     },
   ];

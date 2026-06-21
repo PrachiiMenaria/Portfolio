@@ -96,7 +96,7 @@ export default function Desk() {
             ref={pad1Ref}
             whileHover={{ y: -4, rotate: -1, scale: 1.02, zIndex: 10 }}
             transition={{ type: "spring", stiffness: 200, damping: 15 }}
-            className="bg-spring-butter/20 p-8 shadow-md hover:shadow-lg relative overflow-visible flex flex-col min-h-[350px] rounded-sm cursor-pointer border border-text/5 transform -rotate-2"
+            className="bg-paper-100 p-8 shadow-md hover:shadow-lg relative overflow-visible flex flex-col min-h-[350px] rounded-sm cursor-pointer border border-text/5 transform -rotate-2"
           >
             {/* Pin */}
             <div className="absolute -top-3 left-1/2 -translate-x-1/2 text-text/40 drop-shadow-sm">
@@ -130,7 +130,7 @@ export default function Desk() {
             ref={pad2Ref}
             whileHover={{ y: -4, rotate: 2, scale: 1.02, zIndex: 10 }}
             transition={{ type: "spring", stiffness: 200, damping: 15 }}
-            className="bg-spring-peach/20 p-8 shadow-md hover:shadow-lg relative overflow-visible flex flex-col min-h-[350px] rounded-sm cursor-pointer border border-text/5 transform rotate-3 w-full"
+            className="bg-paper-100 p-8 shadow-md hover:shadow-lg relative overflow-visible flex flex-col min-h-[350px] rounded-sm cursor-pointer border border-text/5 transform rotate-3 w-full"
           >
             {/* Subtle vintage texture */}
             <div className="absolute inset-0 opacity-[0.03] mix-blend-multiply pointer-events-none rounded-sm" style={{ backgroundImage: "url('data:image/svg+xml,%3Csvg viewBox=%220 0 200 200%22 xmlns=%22http://www.w3.org/2000/svg%22%3E%3Cfilter id=%22noiseFilter%22%3E%3CfeTurbulence type=%22fractalNoise%22 baseFrequency=%220.8%22 numOctaves=%223%22 stitchTiles=%22stitch%22/%3E%3C/filter%3E%3Crect width=%22100%25%22 height=%22100%25%22 filter=%22url(%23noiseFilter)%22/%3E%3C/svg%3E')" }} />

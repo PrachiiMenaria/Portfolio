@@ -17,19 +17,19 @@ export default function Skills() {
     {
       category: "Frontend",
       skills: ["HTML", "CSS", "JavaScript", "React", "Next.js", "Tailwind CSS"],
-      color: "bg-spring-ocean/20 border-spring-ocean/40 text-text",
+      color: "bg-paper-100 border-text/10 text-text",
       pinRotate: "rotate-2",
     },
     {
       category: "Backend",
       skills: ["Node.js", "Express.js", "MongoDB", "Python", "Flask", "PostgreSQL"],
-      color: "bg-spring-peach/20 border-spring-peach/40 text-text",
+      color: "bg-paper-100 border-text/10 text-text",
       pinRotate: "-rotate-3",
     },
     {
       category: "Tools",
       skills: ["Git", "GitHub", "VS Code", "Postman"],
-      color: "bg-spring-butter/20 border-spring-butter/40 text-text",
+      color: "bg-paper-100 border-text/10 text-text",
       pinRotate: "-rotate-2",
     },
   ];

@@ -13,7 +13,7 @@ interface ProjectCardProps {
   githubUrl?: string;
   liveUrl?: string;
   delay?: number;
-  accentColor?: "sage" | "blush" | "butter" | "lavender" | "cream" | "ocean" | "peach" | "fern";
+  accentColor?: "cream";
 }
 
 export default function ProjectCard({
@@ -30,14 +30,7 @@ export default function ProjectCard({
   
   // Map color prop to tailwind classes
   const colorMap = {
-    sage: "bg-spring-sage/20 border-spring-sage/40",
-    blush: "bg-spring-blush/20 border-spring-blush/40",
-    butter: "bg-spring-butter/20 border-spring-butter/40",
-    lavender: "bg-spring-lavender/20 border-spring-lavender/40",
-    cream: "bg-paper-200 border-text/5",
-    ocean: "bg-spring-ocean/20 border-spring-ocean/40",
-    peach: "bg-spring-peach/20 border-spring-peach/40",
-    fern: "bg-spring-fern/20 border-spring-fern/40"
+    cream: "bg-paper-200 border-text/5"
   };
   
   const bgClass = colorMap[accentColor];
