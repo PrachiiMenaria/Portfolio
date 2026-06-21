@@ -1,9 +1,9 @@
 "use client";
 
-import { motion, AnimatePresence } from "framer-motion";
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import FlowerSVG from "../ui/FlowerSVG";
-import { VintageStamp, Postmark, PressedFlower, SimpleFlower, HandwrittenLabel } from "../ui/Decorations";
+import { VintageStamp, HandwrittenLabel } from "../ui/Decorations";
 
 export default function Hero() {
   const [isOpen, setIsOpen] = useState(false);
